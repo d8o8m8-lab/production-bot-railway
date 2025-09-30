@@ -12,6 +12,7 @@ from telegram.ext import (
 )
 from datetime import datetime
 import os
+import json
 
 # === НАСТРОЙКИ ===
 BOT_TOKEN = os.environ.get('BOT_TOKEN', '7298874610:AAEKSlBVzZg2oLmlcyxmZXMPTTb_DEtOFK4')
